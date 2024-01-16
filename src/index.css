@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-to-top{
+    position: relative;
+    background-color: darkcyan !important;
+}
+.scroll-to-top svg{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
