@@ -4,10 +4,26 @@
 
 .scroll-to-top{
     position: relative;
-    background-color: darkcyan !important;
+    background-color: #EA580C !important;
 }
 .scroll-to-top svg{
     position: absolute;
     top: 6px;
     left: 6px;
+    color: #fff !important;
 }
+.svg-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: red;
+}
+  
+  .svg-icon circle {
+    stroke: red;
+    stroke-width: 1;
+  }  

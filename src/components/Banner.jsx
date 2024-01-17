@@ -3,16 +3,13 @@ import Bannerimg from "../assets/banner.png"
 import { FaRegBell } from "react-icons/fa6";
 
 
-
-
-
 const Banner = () => {
   return (
    <section id='banner' className='max-w-container mx-auto '>
     <div className='flex justify-between flex-wrap'>
         <div className="w-full lg:w-[60%] mt-[80px] lg:mt-[191px]">
-           <div className='w-[60%] lg:w-[25%] mx-2 lg:mx-0  flex gap-2 items-center border-2 rounded-[24px]'>
-            <div className= ' px-3 py-3  bg-[#FAD7C4] rounded-full'>
+           <div className='w-[55%] lg:w-[30%]  mx-[60px] lg:mx-0  flex gap-2 items-center border-2 rounded-[24px]'>
+            <div className= 'px-3 py-3  bg-[#FAD7C4] rounded-full '>
               <FaRegBell className=' text-black'/>
             </div>
             <a className='text-[#000] font-abz text-[14px] lg:text-[16px] font-normal' href="">Startup Business</a>
@@ -23,7 +20,7 @@ const Banner = () => {
            <div className='mt-[32px]'>
             <p className='text-[#000] font-robo text-[16px] lg:text-[18px] font-normal leading-[28px] mx-2 lg:mx-0  lg:pr-[200px]'>Eu posuere mi sed purus proin quisque molestie. Ut amet, at amet, <br /> velit <br /> nibh arcu eu. Id sem varius malesuada tincidunt sodales.</p>
            </div>
-           <div className='mt-[37px]'>
+           <div className='mt-[37px] mx-[55px] lg:mx-0'>
             <a className='text-[#fff] font-abz text-[14px] lg:text-[16px] font-normal py-4 px-14 lg:px-20 bg-[#EA580C] rounded-md mx-2 lg:mx-0' href="#">Get started now </a>
            </div>
         </div>
