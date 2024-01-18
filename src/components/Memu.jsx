@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from "../assets/logo.png"
 import { FaCloudArrowUp } from "react-icons/fa6";
 import ScrollspyNav from "react-scrollspy-nav";
-import { FaBars } from "react-icons/fa";
 
 
 const Memu = () => {
@@ -11,8 +10,6 @@ const Memu = () => {
   let handleShow = () => {
     setShow(!show)
   } 
-
-
 
   return (
     <section>
@@ -28,7 +25,7 @@ const Memu = () => {
            scrollDuration="1000"
            headerBackground="true"
        >
-         <ul className={`lg:flex justify-between py-4 lg:py-0 mt-2 absolute right-0 top-0 lg:static ${show ? " top-[132px] bg-[#EA580C] rounded-md right-0 w-full duration-1000" : " top-[-200px] w-full right-0 duration-1000" }`}>
+         <ul className={`lg:flex justify-between py-4 lg:py-0 mt-2 absolute right-0 top-0 lg:static ${show ? " top-[135px] bg-[#EA580C] rounded-md right-0 w-full duration-1000" : " top-[-200px] w-full right-0 duration-1000" }`}>
             <li className='py-1 lg:py-0 text-right mr-4 lg:mr-0'><a className='text-white lg:text-[#0B0B0B] lg:hover:text-[#EA580C] font-abz hover:font-robo text-[16px] font-normal hover:font-medium line-height:normal ' href="#banner">Home</a></li>
             <li  className='py-1 lg:py-0 text-right mr-4 lg:mr-0'><a className='text-white lg:text-[#0B0B0B] lg:hover:text-[#EA580C] font-abz hover:font-robo text-[16px] font-normal hover:font-medium line-height:normal ' href="#">About</a></li>
             <li className='py-1 lg:py-0 text-right mr-4 lg:mr-0'><a className='text-white lg:text-[#0B0B0B] lg:hover:text-[#EA580C] font-abz hover:font-robo text-[16px] font-normal hover:font-medium line-height:normal ' href="#service">Service</a></li>
@@ -42,7 +39,7 @@ const Memu = () => {
         <div className=''>
         <FaCloudArrowUp className='text-white mx-6 text-[20px] rotate-180'/>
         </div>
-        <a className='text-white  font-rem  text-[14px]  lg:text-[16px] font-medium' href="#"> Download</a>
+       <a className=' text-white  font-rem  text-[14px]  lg:text-[16px] font-medium' href="#"> Download</a>
         </div>
        </div>
        <div className='max-w-container mt-2 mx-auto lg:hidden absolute right-2 top-[96px] ' onClick={handleShow}>
